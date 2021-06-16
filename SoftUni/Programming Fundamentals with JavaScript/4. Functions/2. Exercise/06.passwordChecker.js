@@ -14,11 +14,11 @@ function passwordValidator(password) {
     }
 
     if (!containsAtLeastTwoDigits) {
-        console.log('Password must consist only letters and digits');
+        console.log('Password must have at least 2 digits');
     }
 
     if (!consistsLettersAndDigits) {
-        console.log('Password must have at least 2 digits');
+        console.log('Password must consist only of letters and digits');
     }
 
     function isBetweenSixAndTen(string) {
@@ -65,7 +65,3 @@ function passwordValidator(password) {
     }
 
 }
-
-passwordValidator('logIn');
-passwordValidator('MyPass123');
-passwordValidator('Pa$s$s');
