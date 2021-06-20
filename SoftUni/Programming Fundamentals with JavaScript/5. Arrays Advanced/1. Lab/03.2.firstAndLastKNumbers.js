@@ -4,6 +4,8 @@ function firstAndLast(arr) {
     let forward = [];
     let backward = [];
 
+
+    //Logic
     for (let i = 0; i < k; i++) {
         forward.push(arr[i])
     }
