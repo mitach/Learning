@@ -1,7 +1,7 @@
-function printing(name, numOne, numTwo) {
+function printing(name, number, floatingPoint) {
     console.log(name);
-    console.log(numOne);
-    console.log(numTwo);
+    console.log(number);
+    console.log(floatingPoint);
 
 }
 
