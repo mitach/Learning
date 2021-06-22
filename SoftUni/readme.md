@@ -15,15 +15,15 @@ each course ends with a practical and theoretical exam.
 ## JavaScript path
 
 ```
-Programming Basics with JavaScript		✅
-Programming Fundamentals with JavaScript        ✅
-JavaScript Advanced	 			⬜️
+Programming Basics with JavaScript	 (2 months)	✅
+Programming Fundamentals with JavaScript (4 months)	✅
+JavaScript Advanced	 		 (4 months)	⬜️
   -JS Advanced
   -JS Applications
-JavaScript Web     				⬜️
+JavaScript Web     			 (4 months)	⬜️
   -JS Back-End
   -ReactJS
-Front-End					⬜️
+Front-End				 (4 months)	⬜️
   -HTML & CSS
   -Front-End Framework
 ```
