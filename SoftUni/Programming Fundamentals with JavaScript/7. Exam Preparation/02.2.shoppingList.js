@@ -32,7 +32,7 @@ function shoppingList(input) {
                 if (groceries.includes(product)) {
                     let index = groceries.indexOf(product);
                     groceries.splice(index, 1);
-                    groceries.unshift(product);
+                    groceries.push(product);
                 }
 
                 break;
