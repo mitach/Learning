@@ -10,9 +10,9 @@ JavaScript Advanced	 		 (4 months)	✅
   -JS Applications
 JavaScript Web     			 (4 months)	✅
   -JS Back-End
-  -ReactJS
+  -Angular
 Front-End				 (4 months)	⬜️
   -HTML & CSS
-  -Front-End Framework
+  -ReactJS
 ```
 
