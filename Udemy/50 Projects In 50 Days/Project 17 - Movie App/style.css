@@ -44,6 +44,7 @@ header {
 main {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 100px;
 }
 
 .movie {
