@@ -1,0 +1,50 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 50px;
+    background-color: rgb(247, 247, 247);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+}
+
+table {
+    width: 100%;
+    background-color: rgb(169, 169, 169);
+}
+
+thead {
+    background-color: rgb(169, 169, 169);
+}
+
+tr.grey {
+    background-color: rgb(221, 221, 221);
+}
+
+tr.white {
+    background-color: white;
+}
+
+td {
+    border: 0.1px solid rgb(169, 169, 169);
+}
+
+blockquote {
+    border-left: 2px solid rgb(221, 221, 221);
+    padding-left: 20px;
+    font-style: italic;
+}
+
+#name {
+    text-align: end;
+}
