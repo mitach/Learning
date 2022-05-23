@@ -7,8 +7,8 @@
 * Create an **"index.html"** and **"style.css"** files
 * Change the document title to **"Typography"**
 * Use **Helvetica**, **sans-serif** font-family for the document
-    *Make the **font-size** 16px
-    *Change the **line-height** to 1.5
+    * Make the **font-size** 16px
+    * Change the **line-height** to 1.5
 * Use **Georgia**, **serif** font-family for the headings
 * Use headings from **h1** to **h6**
 * Create a HTML **table** and style it
