@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">Certification Project Form</h1>
+        <p id="description">
+          The form below is used for freeCodeCamp certificate defense
+        </p>
+      </header>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label">Age (optional)</label>
+          <input
+            type="number"
+            id="number"
+            min="12"
+            max="120"
+            placeholder="Age"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label>Which option best describes your current role?</label>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Are you ready to change your current role?</label>
+          <div>
+            <label
+              ><input
+                name="change-role-answer"
+                type="radio"
+                class="input-radio"
+                value="yes"
+              />Yes</label
+            >
+          </div>
+          <div>
+            <label
+              ><input
+                name="change-role-answer"
+                type="radio"
+                class="input-radio"
+                value="maybe"
+              />Maybe</label
+            >
+          </div>
+          <div>
+            <label
+              ><input
+                name="change-role-answer"
+                type="radio"
+                class="input-radio"
+                value="not-sure"
+              />Not sure</label
+            >
+          </div>
+        </div>
+        <div class="form-group">
+            <label>What skill you would like to improve? (check all that apply)</label>
+            <div><label><input type="checkbox" value="javascript" class="input-checkbox"> JavaScript</label></div>
+            <div><label><input type="checkbox" value="python" class="input-checkbox"> Python</label></div>
+            <div><label><input type="checkbox" value="mongodb" class="input-checkbox"> MongoDB</label></div>
+            <div><label><input type="checkbox" value="nodejs" class="input-checkbox"> NodeJS</label></div>
+            <div><label><input type="checkbox" value="java" class="input-checkbox"> Java</label></div>
+            <div><label><input type="checkbox" value="html" class="input-checkbox"> HTML</label></div>
+            <div><label><input type="checkbox" value="css" class="input-checkbox"> CSS</label></div>
+        </div>
+        <div class="form-group">
+            <label>Your Bio:</label>
+            <textarea id="textarea" class="input-textarea" placeholder="Enter your bio here..."></textarea>
+        </div>
+        <div class="form-group">
+            <button id="submit" type="submit" class="submit-button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
