@@ -1,5 +1,6 @@
 # Task
 Create a web page like the following:
+
 ![image](https://user-images.githubusercontent.com/85792514/170826310-4c7a9696-dd58-4152-b3b3-ddfc0a24622d.png)
 
 ## Requirements

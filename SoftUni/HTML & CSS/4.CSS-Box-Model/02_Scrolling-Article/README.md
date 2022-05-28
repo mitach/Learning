@@ -1,5 +1,6 @@
 # Task
 Create a web page like the following:
+
 ![scrolling-article](https://user-images.githubusercontent.com/85792514/170820903-8de674e6-5e04-4df8-b82b-ccdd59eb22f7.png)
 
 ## Requirements
