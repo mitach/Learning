@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 50px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+header.top {
+    border-bottom: 2px solid black;
+    position: relative;
+}
+
+header.top p {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px
+}
+
+header.top ul {
+    list-style: none;
+    position: absolute;
+    top: -10px;
+    right: 20px;
+}
+
+header.top ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header.top ul li a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+
+}
+
+article {
+    margin-top: 50px;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0 10px 10px 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+article.first img {
+    float: right;
+}
+
+article.second .blockquote--info {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+
+article.second blockquote {
+    display: inline-block;
+    width: 40%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: gray;
+    position: relative;
+    vertical-align: top;
+    border-left: 2px solid lightgray;
+    padding-left: 30px;
+    margin: 0 0 0 30px;
+}
+
+article.second .author {
+    float: right;
+}
+
+article.third img {
+    float: left;
+}
+
+aside {
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+    margin-left: 100px;
+}
+
+aside ul {
+    list-style: square;
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
