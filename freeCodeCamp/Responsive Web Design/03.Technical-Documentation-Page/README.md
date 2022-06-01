@@ -1,6 +1,6 @@
-# Certificate defense - Project 3
+# Certificate defense - Project no.3
 
-## Desktp View
+## Desktop View
 ![documentation-page-gif](https://user-images.githubusercontent.com/85792514/171450576-a9d7e9ae-1a87-4538-9b48-783d143d201f.gif)
 
 ## Phone View

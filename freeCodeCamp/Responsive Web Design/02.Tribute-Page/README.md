@@ -1,4 +1,4 @@
-# Certificate defense
+# Certificate defense - Project no.2
 ## Desktop View
 ![screenshot](https://user-images.githubusercontent.com/85792514/170110735-e430a649-9478-4c90-9f90-24c6c5547054.png)
 ## Phone View
