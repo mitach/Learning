@@ -1,0 +1,25 @@
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+}
+
+article {
+    flex-basis: 30%;
+}
