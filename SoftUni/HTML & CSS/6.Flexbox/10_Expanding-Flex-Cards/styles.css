@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.container {
+    width: 80vw;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+} 
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgb(151, 151, 151);
+}
+
+img.shrinked {
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+}
