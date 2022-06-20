@@ -10,6 +10,8 @@ html {
     --clr-black: #191919;
     --clr-white: #FFFFFF;
     --clr-gray-text: #78727f;
+    --clr-gray-bg: #F5F6F8;
+    --gradient-gray: linear-gradient(90deg, rgba(102, 102, 102, 1) 0%, rgba(102, 102, 102, 0) 100%);
 }
 
 h1,
@@ -142,6 +144,22 @@ h6 {
     gap: 3rem;
 }
 
+#features .benefit {
+    position: relative;
+}
+
+#features .benefit::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: var(--clr-purple);
+    opacity: 0.7;
+}
+
 #features .benefit *:not(:last-child) {
     margin-bottom: 0.5rem;
 }
@@ -162,11 +180,6 @@ h6 {
     width: 40%;
 }
 
-#catalog img {
-    width: 45%;
-    max-width: 500px;
-}
-
 #catalog .info__title {
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -179,4 +192,77 @@ h6 {
 
 #catalog .info__link {
     color: var(--clr-black);
+}
+
+#catalog .catalog__img {
+    width: 45%;
+    max-width: 500px;
+}
+
+/* TESTIMONIALS */
+
+#tstm .tstm__title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#tstm .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    position: relative;
+}
+
+#tstm .cards::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background:  linear-gradient(0deg, rgba(255, 255, 255, 1) 10%, rgba(102, 102, 102, 0) 65%);
+}
+
+#tstm .card {
+    background-color: var(--clr-gray-bg);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#tstm .card .card__msg {
+    font-style: italic;
+}
+
+#tstm .card .card__msg-divider {
+    height: 2px;
+    width: 35%;
+    background: var(--gradient-gray);
+    margin-bottom: 1rem;
+}
+
+#tstm .card .card__about {
+    display: grid;
+    grid-template-areas:
+    "img name name name"
+    "img position position position";
+    align-items: center;
+}
+
+#tstm .card .card__about .about__img {
+    grid-area: img;
+}
+
+#tstm .card .card__about .about__name {
+    grid-area: name;
+}
+
+#tstm .card .card__about .about__position {
+    grid-area: position;
+}
+
+#tstm .btn {
+    display: block;
+    margin: 0 auto;
 }
