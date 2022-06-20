@@ -48,6 +48,23 @@ h6 {
     margin: 0px auto;
 }
 
+/* NAV */
+
+#nav {
+    height: 73px;
+    max-width: 1440px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav .menu a {
+    text-decoration: none;
+    color: var(--clr-black);
+    padding: 0 10px;
+}
+
 /* HOME */
 
 #home {
