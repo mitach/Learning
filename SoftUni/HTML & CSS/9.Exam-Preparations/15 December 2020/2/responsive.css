@@ -1,0 +1,29 @@
+/* TODO: Add the responsive styles here */
+
+@media screen and (max-width: 600px) {
+    .w3-top .w3-card article.w3-right {
+        display: none;
+    }
+
+    #home article h1 {
+        font-size: 48px;
+    }
+
+    main #about article:nth-of-type(1) {
+        display: none;
+    }
+
+    main #about article:nth-of-type(2) {
+        width: 100%;
+    }
+    
+    main #menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main #menu article {
+        width: 100%;
+    }
+
+}
