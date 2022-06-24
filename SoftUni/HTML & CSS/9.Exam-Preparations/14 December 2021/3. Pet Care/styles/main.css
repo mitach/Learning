@@ -60,7 +60,7 @@ p {
 }
 
 #home .home__desc {
-    width: 21%;
+    width: 23%;
 }
 
 .home__desc .desc__title {
@@ -72,11 +72,11 @@ p {
 
 .desc__title .title__special {
     font-weight: 800;
-    letter-spacing: 0.5px;
 }
 
 .home__desc .desc__text {
     color: #fff;
+    max-width: 300px;
     margin-top: 18px;
     font-size: 14px;
 }
