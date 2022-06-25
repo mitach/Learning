@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --clr-grey-bg: #efefef;
+    --clr-link-bg: #909090;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 40px;
+}
+
+/* REUSABLE */
+
+.section {
+    background-color: var(--clr-grey-bg);
+    height: 80vh;
+    margin-top: 40px;
+}
+
+.section:first-of-type {
+    margin-top: unset;
+}
+
+.divider-vertical {
+    width: 1px;
+    height: 70px;
+    background-color: black;
+    margin-top: 32px;
+}
+
+.divider-horizontal {
+    width: 70px;
+    height: 1px;
+    background-color: black;
+    margin-right: 32px;
+}
+
+.title__bold {
+    font-weight: 700;
+}
+
+/* HERO */
+
+#hero {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#hero .hero__img {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 45%;
+}
+
+#hero .hero__info {
+    width: 40%;
+    padding-left: 100px;
+}
+
+#hero .hero__menu {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.hero__menu .menu__icon {
+    margin-left: 12px;
+    font-size: 22px;
+}
+
+.hero__info .info__title {
+    font-size: 42px;
+    font-weight: 100;
+}
+
+.hero__info .info__text {
+    font-family: serif;
+    margin-top: 32px;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
+
+/* ABOUT */
+
+#about {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+}
+
+#about .about__img {
+    width: 40%;
+    padding-left: 100px;
+}
+
+#about .about__info {
+    width: 42%;
+}
+
+.about__info .title__line {
+    display: flex;
+    align-items: center;
+}
+
+.title__line .info__title {
+    font-size: 42px;
+    font-weight: 100;
+}
+
+.about__info .info__text {
+    font-family: serif;
+    margin-top: 32px;
+    font-style: italic;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+}
+
+.about__info .info__links {
+    margin-top: 32px;
+    display: flex;
+    gap: 18px;
+}
+
+.info__links .ael {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--clr-link-bg);
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+/* PHOTO */
+
+#photo {
+    background-image: url('../images/thumb-1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+/* TRAVEL */
+
+#featured {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+#featured .featured__img {
+    width: 55%;
+}
+
+#featured .featured__info {
+    width: 35%;
+}
+
+.featured__info .info__title {
+    font-size: 42px;
+    font-weight: 100;
+}
+
+.featured__info .info__text {
+    font-family: serif;
+    margin-top: 32px;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+}
+
+/* GALLERY */
+
+#gallery {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#gallery .gallery__img {
+    width: 33.33%;
+    z-index: 1;
+}
+
+#gallery .gallery__img:nth-of-type(2) {
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+/* CONTACT */
+
+#contact {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#contact .contact__title {
+    font-size: 42px;
+    font-weight: 100;
+}
+
+#contact .contact__text {
+    text-align: center;
+    font-family: serif;
+    margin-top: 32px;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    width: 81%;
+}
+
+#contact .contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 32px;
+}
+
+.contact__form .inputs {
+    display: flex;
+    gap: 30px;
+}
+
+.contact__form .input {
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.contact__form .input::placeholder {
+    padding-left: 15px ;
+}
+
+.contact__form .textarea {
+    width: 630px;
+    height: 100px;
+    background-color: transparent;
+}
+
+.contact__form .textarea::placeholder {
+    padding-left: 15px ;
+    padding-top: 10px;
+}
+
+.contact__form .form__btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+#contact .footer {
+    font-size: 12px;
+    position: absolute;
+    bottom: 1%;
+}
